@@ -1,0 +1,45 @@
+.choropleth {
+	margin: 100px 220px;
+}
+
+.cities {
+  stroke: #fff;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+}
+
+.districts {
+  stroke: #fff;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+}
+
+.choro_outline {
+  opacity: 1;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.tooltip {
+  width: 60px;
+  height:20px;
+  position: absolute;
+  opacity: 0;
+  padding: 6px 8px;
+  font: 8px/10px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.zoomout {
+	width: 50px;
+	height: 50px;
+	background: url("../images/left-arrow-icon.jpg");
+	background-size: contain;
+	position: absolute;
+	top: 510px;
+	left: 230px;
+	z-index: 5;
+}
