@@ -76,8 +76,8 @@ var mapMode = 1; // variable holding detail type: 1=city level, -1=district leve
 	
 
 queue()
-      .defer(d3.json, "../GIS_data/adm_topojson/turkey/turkeyCitiesTopoSimplified.json")
-      .defer(d3.json, "../GIS_data/adm_topojson/turkey/turkeyDistrictsTopoSimplified.json")
+      .defer(d3.json, "turkeyCitiesTopoSimplified.json")
+      .defer(d3.json, "turkeyDistrictsTopoSimplified.json")
       .await(readMapData);
 
 function readMapData(error,cityJSON,districtJSON) {
